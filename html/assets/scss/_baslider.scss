@@ -1,0 +1,75 @@
+.ba-slider {
+    position: relative;
+    overflow: hidden;
+    height: 430px;
+}
+.after{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    padding: 19px 25px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Josefin Sans,sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.before{
+    @extend .after ;
+    left:0;
+    right: auto;
+}
+.ba-slider img {
+    width: 724.156px;
+    display: block;
+    max-width: none;
+    height: 100%;
+    object-fit: cover;
+}
+ 
+.ba-slider .resize {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+}
+.ba-slider .handle {
+  position:absolute; 
+  left:50%;
+  top:0;
+  bottom:0;
+  width:2px;
+  margin-left:-2px;
+  background: $white;
+  cursor: ew-resize;
+}
+.ba-slider .handle span { 
+    width: 42px;
+    height: 42px;
+    border: 2px solid #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9999;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}
+.ba-slider .handle.ba-draggable:after {
+    width: 48px;
+    height: 48px;
+    margin: -24px 0 0 -24px;
+    line-height:50px;
+    font-size:30px;
+}

@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Curl Mix</title>
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/images/logo.png" type="/png" sizes="16x16">
+        <link rel="stylesheet" href="assets/bootstrap.css">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <script src="assets/js/flickity.pkgd.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+<body>
+        <header id="header">
+                <div class="header-top">
+                    <div class="container text-center pt-1">
+                        Free Shipping $80+ & Money Back Guarantee
+                    </div>
+                </div>
+        
+                <div class="header-bottom container-fluid border-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="menubar col-xl-2 col-4 p-3 d-flex justify-content-start d-lg-none">
+                                <a class="button" data-toggle="collapse" href="#collapseExample" role="button"
+                                    aria-expanded="false" aria-controls="collapseExample" onclick="myFunction(this)">
+                                    <div class="bar1"></div>
+                                    <div class="bar2"></div>
+                                    <div class="bar3"></div>
+                                </a>
+                            </div>
+        
+                            <div class="mobile-navigation">
+                                <div class="accordion" id="accordionExample1">
+                                    <ul class="nav flex-column">
+                                        <li href="#collapsefour" class="nav-item border-bottom p-3 panel-title"
+                                            id="collapseExample">
+                                            <a class="nav-link collapsed" href="#" data-toggle="collapse"
+                                                data-target="#collapsefour" aria-expanded="true"
+                                                aria-controls="collapsefour">SHOP</a>
+                                        </li>
+                                        <div id="collapsefour" class="collapse" aria-labelledby="headingfour"
+                                            data-parent="#accordionExample1" id="collapseExample">
+        
+                                            <div class="accordion px-2" id="accordionExample">
+                                                <ul class="nav flex-column">
+                                                    <li class="nav-item border-bottom pt-3 pb-3 pr-3 panel-title">
+                                                        <a href="#collapseOne" class="text-uppercase collapsed"
+                                                            data-toggle="collapse" data-target="#collapseOne"
+                                                            aria-expanded="true" aria-controls="collapseOne">
+                                                            By Product
+        
+                                                        </a>
+                                                    </li>
+        
+                                                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                                        data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <ul class="navbar-nav">
+                                                                <li class="nav-item"><a href="" class="nav-link"> Shampoo</a>
+                                                                </li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Conditioner</a>
+                                                                </li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Moisturizer</a>
+                                                                </li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Flaxseed
+                                                                        Gel</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Wash & Go
+                                                                        System</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Serum</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Body Butter</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+        
+                                                    <li class="nav-item border-bottom pt-3 pb-3 pr-3 panel-title">
+                                                        <a href="#collapseTwo" class="collapsed text-uppercase"
+                                                            data-toggle="collapse" data-target="#collapseTwo"
+                                                            aria-expanded="false" aria-controls="collapseTwo">
+                                                            <span class="text-uppercase">BY Concern</span>
+        
+                                                        </a>
+                                                    </li>
+        
+                                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                                        data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <ul class="navbar-nav">
+                                                                <li class="nav-item"><a href=""
+                                                                        class="nav-link">Moisturizing</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Growth</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Repair</a></li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Strengthen</a>
+                                                                </li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Soften Hair</a>
+                                                                </li>
+                                                                <li class="nav-item"><a href="" class="nav-link">Sensitive</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+        
+                                                    <li class="nav-item border-bottom pt-3 pb-3 pr-3 panel-title">
+                                                        <a href="#collapseThree" class="collapsed text-uppercase"
+                                                            data-toggle="collapse" data-target="#collapseThree"
+                                                            aria-expanded="false" aria-controls="collapseThree">
+                                                            <span class="text-uppercase">By step</span>
+                                                        </a>
+                                                    </li>
+        
+                                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                                        data-parent="#accordionExample">
+                                                        <div class="card-body">
+                                                            <ul class="navbar-nav">
+                                                                <li class="nav-item"><a href="" class="nav-link"><span
+                                                                            class="badge circle p-3 pr-2 pl-2 mr-3">1</span>Shampoo</a>
+                                                                </li>
+                                                                <li class="nav-item"><a href="" class="nav-link"><span
+                                                                            class="badge circle p-3 mr-3">2</span>Conditioner</a>
+                                                                </li>
+                                                                <li class="nav-item"><a href="" class="nav-link"><span
+                                                                            class="badge circle p-3 mr-3">3</span>Moisturizer</a>
+                                                                </li>
+                                                                <li class="nav-item"><a href="" class="nav-link"><span
+                                                                            class="badge circle p-3 mr-3">4</span>Flaxseed
+                                                                        Gel</a></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+        
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <li class="nav-item border-bottom p-3" id="collapseExample"><a class="nav-link"
+                                                href="#">HAIR QUIZ</a></li>
+                                        <li class="nav-item border-bottom p-3" id="collapseExample"><a class="nav-link"
+                                                href="#">REVIEWS</a></li>
+                                        <li class="nav-item border-bottom p-3" id="collapseExample"><a class="nav-link"
+                                                href="#">REWARDS</a></li>
+                                    </ul>
+                                </div>
+        
+                            </div>
+                            <div class="col-lg-2 col-4 p-3 d-flex justify-content-start">
+                                <a href="../html/index.html" class="logo"><img src="assets/images/logo.png" alt=""></a>
+                            </div>
+        
+                            <nav class="col-8 navbar-collapse">
+                                <ul class="nav justify-content-around">
+                                    <li class="nav-item nav-drop"><a class="nav-link p-4" href="#">SHOP</a>
+                                        <div class="drop container-fluid position-absolute">
+                                            <div class="container">
+                                                <div class="row">
+                                                    <div class="col-6 dropsecone">
+                                                        <div class="row">
+                                                            <div class="col-md-4 col-12 mt-3">
+                                                                <h6 class="text-uppercase">By Product</h6>
+                                                                <ul class="navbar-nav">
+                                                                    <li class="nav-item"><a href="#"
+                                                                            class="nav-link">Shampoo</a></li>
+                                                                    <li class="nav-item"><a href="#"
+                                                                            class="nav-link">Conditioner</a></li>
+                                                                    <li class="nav-item"><a href="#"
+                                                                            class="nav-link">Moisturizer</a></li>
+                                                                    <li class="nav-item"><a href="#" class="nav-link">Flaxseed
+                                                                            Gel</a></li>
+                                                                    <li class="nav-item"><a href="#" class="nav-link">Wash & Go
+                                                                            System</a></li>
+                                                                    <li class="nav-item"><a href="#" class="nav-link">Serum</a>
+                                                                    </li>
+                                                                    <li class="nav-item"><a href="#" class="nav-link">Body
+                                                                            Butter</a></li>
+                                                                </ul>
+                                                            </div>
+        
+                                                            <div class="col-md-4 col-12 mt-3">
+                                                                <h6 class="text-uppercase">By Concern</h6>
+                                                                <ul class="navbar-nav">
+                                                                    <li class="nav-item"><a href="#"
+                                                                            class="nav-link">Moisturizing</a></li>
+                                                                    <li class="nav-item"><a href="#" class="nav-link">Growth</a>
+                                                                    </li>
+                                                                    <li class="nav-item"><a href="#" class="nav-link">Repair</a>
+                                                                    </li>
+                                                                    <li class="nav-item"><a href="#"
+                                                                            class="nav-link">Strengthen</a></li>
+                                                                    <li class="nav-item"><a href="#" class="nav-link">Soften
+                                                                            Hair</a></li>
+                                                                    <li class="nav-item"><a href="#"
+                                                                            class="nav-link">Sensitive</a></li>
+                                                                </ul>
+                                                            </div>
+        
+                                                            <div class="col-md-4 col-12 mt-3">
+                                                                <h6 class="text-uppercase">By Step</h6>
+                                                                <div class="productsectionthree">
+                                                                    <ul class="navbar-nav use-list">
+                                                                        <li class="nav-item d-flex"><a href="#"
+                                                                                class="nav-link">Shampoo</a></li>
+                                                                        <li class="nav-item d-flex mt-3"><a href="#"
+                                                                                class="nav-link">Conditioner</a></li>
+                                                                        <li class="nav-item d-flex mt-3"><a href="#"
+                                                                                class="nav-link">Moisturizer</a></li>
+                                                                        <li class="nav-item d-flex mt-3"><a href="#"
+                                                                                class="nav-link">Flaxseed Gel</a></li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+        
+                                                        </div>
+                                                    </div>
+        
+                                                    <div class="col-6 dropsectwo">
+                                                        <div class="row">
+                                                            <div class="col-4 mt-3 mb-3">
+                                                                <a href="" class="collection position-relative d-block"><img
+                                                                        src="assets/images/dropdownimg1.png" alt=""
+                                                                        class="position-absolute w-100 h-100"></a>
+                                                                <div class="carousel-caption text-left">
+                                                                    <h5><a href=""
+                                                                            class="text-uppercase nav-link text-white">shop</a>
+                                                                    </h5>
+                                                                    <h3><a href=""
+                                                                            class="text-uppercase nav-link display-4 text-white">wavy</a>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4 mt-3 mb-3">
+                                                                <a href="" class="collection position-relative d-block"><img
+                                                                        src="assets/images/dropdownimg2.png" alt=""
+                                                                        class="position-absolute w-100 h-100"></a>
+                                                                <div class="carousel-caption text-left">
+                                                                    <h5><a href=""
+                                                                            class="text-uppercase nav-link text-white">shop</a>
+                                                                    </h5>
+                                                                    <h3><a href=""
+                                                                            class="text-uppercase nav-link display-4 text-white">curly</a>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-4 mt-3 mb-3">
+                                                                <a href="" class="collection position-relative d-block"><img
+                                                                        src="assets/images/dropdownimg3.png" alt=""
+                                                                        class="position-absolute w-100 h-100"></a>
+                                                                <div class="carousel-caption text-left">
+                                                                    <h5><a href=""
+                                                                            class="text-uppercase nav-link text-white">shop</a>
+                                                                    </h5>
+                                                                    <h3><a href=""
+                                                                            class="text-uppercase nav-link display-4 text-white">coily</a>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link  p-4" href="#">HAIR QUIZ</a></li>
+                                    <li class="nav-item"><a class="nav-link p-4" href="#">REVIEWS</a></li>
+                                    <li class="nav-item"><a class="nav-link  p-4" href="#">REWARDS</a></li>
+                                </ul>
+                            </nav>
+        
+                            <div class="col-lg-2 col-4 p-3 d-flex justify-content-end">
+                                <a href="#" class="iconone mx-sm-3  icon" onclick="Function()"><img
+                                        src="assets/images/search.png" alt=""></a>
+                                <a href="#" class="mx-3  icon d-mx-none d-lg-block"><img src="assets/images/user.png"
+                                        alt=""></a>
+                                <a href="../html/cart.html" class="ml-sm-3  icon nav-link"><img src="assets/images/cart-beg.png"
+                                        alt=""></a>
+                                <span
+                                    class="font-family-Poppins font-weight-normal h6 mb-0 text-gray-900 line-height-normal ml-1 ml-md-2 mt-mx-2">1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </header>
+
+    <div id="search" class="searchbox py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col d-flex align-items-center justify-content-between">
+                    <form id="searchForm" action="/search" method="get" role="search">
+                        <input id="searchInput" name="q" type="search" placeholder="Search CurlMix" autocomplete="off"
+                            autocorrect="off" autocapitalize="off" spellcheck="false" class="form-control">
+                    </form>
+                    <a href="#" rel="nofollow" aria-label="Close" class="btn btn-link btn-close p-0 close"
+                        onclick="Function(closed)"><i class="icon ion-md-close"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+    <section class="productsectionone section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row mb-4">
+                        <div class="col-12">
+                            <a href="" class="text-light text-decoration-none">Home</a>
+                            <span class="p-1 text-light">/</span>
+                            <a href="" class="text-light text-decoration-none">Products</a>
+                            <span class="p-1 text-light">/</span>
+                            <a href="" class="text-light text-decoration-none">Flexseed Gels</a>
+                            <span class="p-1">/</span>
+                            <a href="" class="text-gray-900 font-weight-normal text-decoration-none">Lavender Fragrance</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-10 col-md-10 order-md-2 mt-md-0 mt-3">
+                            <div class="carousel-main"
+                                data-flickity='{
+                                                                                    "asNavFor": ".carousel-nav",
+                                                                                        "draggable": true,
+                                                                                        "groupCells": false, 
+                                                                                        "pageDots": false,
+                                                                                        "prevNextButtons": false,
+                                                                                        "arrowShape": {"x0": 10, "x1": 60, "y1": 50, "x2": 70, "y2": 45, "x3": 25} }'>
+    
+                                <img src="assets/images/productslideimg.png" alt="" class="w-100 ">
+                                <img src="assets/images/productslideimg2.png" alt="" class="w-100">
+                                <img src="assets/images/productslideimg3.png" alt="" class="w-100">
+                                <img src="assets/images/productslideimg4.png" alt="" class="w-100">
+                                <img src="assets/images/productslideimg5.png" alt="" class="w-100">
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-2 order-md-1 mt-md-0 mt-3">
+                            <div class="carousel-nav"
+                                data-flickity='{  "asNavFor": ".carousel-main",
+                                                                                        "draggable": true,
+                                                                                        "groupCells":false,
+                                                                                        "pageDots": false,
+                                                                                        "arrowShape": {"x0": 10, "x1": 60, "y1": 50, "x2": 70, "y2": 45, "x3": 25}}'>
+                                <div class="px-3">
+                                    <img src="assets/images/productslideimg1.png" alt="">
+                                </div>
+                                <div class="px-3">
+                                    <img src="assets/images/productslideimg2.png" alt="">
+                                </div>
+                                <div class="px-3">
+                                    <img src="assets/images/productslideimg3.png" alt="">
+                                </div>
+                                <div class="px-3">
+                                    <img src="assets/images/productslideimg4.png" alt="">
+                                </div>
+                                <div class="px-3">
+                                    <img src="assets/images/productslideimg5.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-6 text-lg-left">
+    
+                    <p>STEP 4 OF WASH + GO SYSTEM</p>
+                    <h2>Pure Flaxseed Gel with Organic Jojoba Oil for Moisturizing Hair & Lavender Fragrance</h2>
+    
+                    <div class="row">
+                        <div class="col-sm-6 ">
+                            <p class="price">$27.00 <span class="ml-2"><small class="text-muted">8 oz. bottle</small></p>
+                            </span>
+                        </div>
+                        <div class="col-sm-6 d-sm-flex justify-content-end">
+                            <span><img src="assets/images/star.png" alt=""></span>
+                            <span class="mt-1 custom">43 Reviews</span>
+                        </div>
+                    </div>
+    
+                    <p>Get ready to end the product junkie lifestyle and replace all your styling products with this
+                        powerhouse.<span><a href="#" class="font-weight-bolder text-decoration-none "> Learn More</a></span>
+                    </p>
+                    <h6 class="text-uppercase">subscribe now & save!</h6>
+    
+                    <form>
+    
+                        <div class="custom-control custom-radio mb-2">
+                            <input type="radio" class="custom-control-input" id="defaultGroupExample1" name="group">
+                            <label class="custom-control-label mt-1 custom" for="defaultGroupExample1">One time
+                                purchase</label>
+                        </div>
+                        <div class="custom-control custom-radio mb-2">
+                            <input type="radio" class="custom-control-input" id="defaultGroupExample2" name="group" checked>
+                            <label class="custom-control-label mt-1 custom" for="defaultGroupExample2">Subscribe & Save 20%
+                                -
+                                $21.60</label>
+                        </div>
+    
+                        <div class="quantity-wrapper d-inline-flex mt-3 mb-mx-3">
+                            <div class="input-group input-group-sm mt-1">
+                                <div class="input-group-prepend ">
+                                    <a href="#" title="Decrease"
+                                        class="input-group-text bg-transparent border-right-0 border-secondary">
+                                        <span class="btn-decrease"></span>
+                                    </a>
+                                </div>
+                                <input type="text" name="quantity" aria-label="quantity" value="1" step="1" min="1"
+                                    class="quantity py-4 px-3 form-control border-secondary font-weight-bolder text-center border-left-0 border-right-0 bg-transparent">
+    
+                                <div class="input-group-append">
+                                    <a href="#" title="Increase"
+                                        class="input-group-text bg-transparent border-left-0 border-secondary">
+                                        <span class="btn-increase"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <a href="#"
+                            class="btn btn-primary text-uppercase text-white px-8 px-sm-5 py-2 mb-1 ml-lg-3 font-weight-bold">add
+                            to
+                            bag</a>
+                    </form>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="jumbotron container-fluid productsectiontwo section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 my-3">
+                    <h3>Pure Flaxseed Gel</h3>
+                    <p>Our customers say this gel leaves your hair soft, defined, feeling moisturized, elongating your curl,
+                        not
+                        crunchy, not flaky, and it smells like paradise. After you’ve used our favorite duo, Wash + Go’s
+                        will be
+                        your new go-to style. The best part is that you only have to style your hair once a week. Sounds too
+                        good to be true? It’s not! Oh, AND did we mention is handmade with Organic + Natural ingredients you
+                        can
+                        read!</p>
+                    <p><strong>WARNING:</strong> You may become completely obsessed with your curls after using CurlMix.</p>
+                    <div class="row">
+                        <div class="col-md-3 my-3 col-6 d-inline-flex">
+                            <div class="ingredients position-relative d-block">
+                                <img src="assets/images/seconeimg1.png" alt="" class="position-absolute w-100 h-100">
+                            </div>
+                            <h6 class="text-uppercase my-auto ml-2 font-weight-normal">handmade</h6>
+                        </div>
+                        <div class="col-md-3 my-3 col-6 d-inline-flex">
+                            <div class="ingredients position-relative d-block">
+                                <img src="assets/images/seconeimg2.png" alt="" class="position-absolute w-100 h-100">
+                            </div>
+                            <h6 class="text-uppercase my-auto ml-2 font-weight-normal">vegan</h6>
+                        </div>
+                        <div class="col-md-3 my-3 col-6 d-inline-flex">
+                            <div class="ingredients position-relative d-block">
+                                <img src="assets/images/seconeimg3.png" alt="" class="position-absolute w-100 h-100">
+                            </div>
+                            <h6 class="text-uppercase my-auto ml-2 font-weight-normal">cruelty free</h6>
+                        </div>
+                        <div class="col-md-3 my-3 col-6 d-inline-flex">
+                            <div class="ingredients position-relative d-block">
+                                <img src="assets/images/seconeimg4.png" alt="" class="position-absolute w-100 h-100">
+                            </div>
+                            <h6 class="text-uppercase my-auto ml-2 font-weight-normal">organic</h6>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-4 my-3">
+    
+                    <h6 class="text-uppercase mb-0">style time</h6>
+                    <p>About 30 Minutes/per week</p>
+    
+                    <h6 class="text-uppercase mb-0">hair type</h6>
+                    <p>It works on all hair types. We aren’t kidding.</p>
+    
+                    <h6 class="text-uppercase mb-0">product consistency</h6>
+                    <p>Gooey + Lightweight</p>
+    
+                    <h6 class="text-uppercase mb-0">style lasts</h6>
+                    <p>3 - 7 days</p>
+    
+                    <h6 class="text-uppercase mb-0">fragrance</h6>
+                    <p>Lavender</p>
+    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="productsectionthree section-padding">
+        <div class="container">
+            <div class="row my-7">
+                <div class="col-md-7 product">
+                    <div class="position-relative d-block use-image ml-3">
+                        <img src="assets/images/productsection31.jpg" alt="" class="position-absolute w-100 h-100">
+                    </div>
+    
+                </div>
+                <div class="col-md-5">
+                    <div class="mr-lg-6 mt-5">
+                        <h2>How To Use</h2>
+                        <ul class="use-list">
+                            <li class="d-flex mt-3">
+                                <p>Apply a nickel sized amount of Pure Flaxseed Gel. Finger comb your curls to distribute
+                                    the gel
+                                    and allow your hair to
+                                    clump and curl properly. Avoid combs and brushes during this stage.</p>
+                            </li>
+                            <li class="d-flex mt-3">
+                                <p>
+                                    HANDS OFF: Don’t disturbb the defined curls while they dry.</p>
+                            </li>
+                            <li class="d-flex mt-3">
+                                <p>
+                                    Blow dry or diffuse curls to properly set hair for a longer lasting style. Wear a bonnet
+                                    at night
+                                    to preserve curls
+                                    for 3-5 days.</p>
+                            </li>
+                        </ul>
+                        <p class="m-0">For the ultimate result - use our complete <span><a href="#"
+                                    class="h6 text-primary text-decoration-none">Wash + Go System</a></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section class="productsectionfour section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mt-lg-6 ">
+                    <div class="ml-5 bg-bg pl-lg-5 py-lg-5  mx-mx-0 organic p-mx-3 p-lg-0">
+                        <h6 class="font-weight-normal text-uppercase mt-4">Potent Ingredient</h6>
+                        <h2>Organic Jojoba Oil</h2>
+                        <p class="mr-lg-7">The Organic Jojoba Oil is most like the natural "sebum" (sticky
+                            oil-like substance) that our scalp produces. Spreading that oil to
+                            the tips of our strands provides a healthier environment for growth
+                            and increases moisture levels. </p>
+                        <h4 class="mr-lg-8">No phthalates. No sulfates.
+                            No parabens. No formaldehyde. No joke.</h4>
+                        <h6 class="text-uppercase">ingredient list</h6>
+                        <p class="mr-lg-5"> <strong>Water:</strong> Purified water that minimizes bacteria growth in hair
+                            products.
+                            <strong>Organic Brown Flaxseeds:</strong> Leaves hair soft and shiny and is rich in omega 3s.
+                            It is also naturally enriched with vitamins and helps to improve hair growth.
+                            <strong>Root Extract:</strong> An herbal extract that prevents the gel from flaking
+                            and makes the hair feel moisturized without the crunch.
+                            <strong>Organic Jojoba Oil:</strong> Is an oil that most resembles the natural sebum (or oil)
+                            that our scalp produces.
+                            It is moisturizing and very absorbent.
+                            <strong>Vegetable Glycerin</strong> Helps to blend the ingredients and to moisturize your
+                            strands.
+                            <strong>Xanthan Gum:</strong> All-natural thickener that combines the gel, oil, and liquids.
+                            <strong>Vitamin E:</strong> An anti-oxidant that helps to reduce inflammation, improve hair
+                            growth, and repair damaged hair.
+                            <strong>Fragrance:</strong> A beautiful Lavender fragrance.
+                            <strong>Preservative:</strong> Optiphen PLUS, a mild preservative used to prevent the growth of
+                            bacteria in your product.
+                            <strong>Citric Acid:</strong> A natural ingredient found in citrus fruits that prevents the oils
+                            from going rancid and oxidizing.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-mx-5 mt-lg-0">
+                    <div class="product-img position-relative">
+                        <img src="assets/images/productsection4.jpg" class="position-absolute w-100 h-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="productsectionfive section-padding">
+        <div class="container">
+            <div class="row my-7">
+                <div class="col-lg-8">
+                    <h2>The Results</h2>
+                    <iframe height="458" frameborder="0" scrolling="no" type="text/html"
+                        src="https://www.youtube.com/embed/0ooue4O77yw?autoplay=0&amp;fs=0&amp;iv_load_policy=3&amp;showinfo=0&amp;rel=0&amp;cc_load_policy=0&amp;start=0&amp;end=0&amp;origin=https://youtubeembedcode.com&amp;enablejsapi=1"
+                        class="w-100" id="widget4"></iframe>
+                </div>
+                <div class="col-lg-4">
+                    <div class="border border-dark p-7 text-center mt-6 mx-2">
+                        <img src="assets/images/secthreeimgicon.png" alt="" class="mb-3">
+                        <h4 class="pb-4">"I was hesitant to buy because I thought it was too expensive but I am glad I did.
+                            My coils are lovely and my hair is softer."</h4>
+                        <dd class="h4">- Pamela B.</dd>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="productsectionsix section-padding">
+        <div class="container">
+            <div class="row my-6">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                    <h5 class="text-uppercase mb-lg-0 mb-5">get the complete system</h5>
+                    <h1 class="wash-title font-weight-bolder mb-lg-7 mb-5">wash + go</h1>
+                    <p class="desc mb-4">Wash + Go’s will be your new go-to style. The best part is that you only have to
+                        style your hair once a week. Sounds too good to be true? It’s not!</p>
+                    <a href="/products/sample-pure-avocado-moisturizer"
+                        class="text-uppercase text-center btn btn-outline-dark font-weight-bold">
+                        get the COMPLETE system <span class="line"></span>$85.00</a>
+                </div>
+                <div class="col-lg-7 col-md-7 offset-md-1 col-12 mt-mx-5 mt-md-0">
+                    <div class="position-relative d-block sixth">
+                        <img src="assets/images/productsectionsix.png" class="position-absolute w-100 h-100" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="productsectioneight section-padding">
+        <div class="container text-center">
+            <h2>Our Products Work Better Together</h2>
+            <div class="row my-5" data-flickity='{ "groupCells": true , "pageDots": false}'>
+    
+                <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 p-4 border-0">
+                    <img src="assets/images/productsectioneight1.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <a href="#" class="text-decoration-none">
+                            <h6 class="card-title">Pure Aloe Vera Shampoo with Lavender Fragrance</h6>
+                        </a>
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-text">$18.00</p>
+                        <a href="#" class="btn btn-outline-primary text-uppercase px-7 font-weight-bold">Shop now</a>
+                    </div>
+                </div>
+                <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 p-4 border-0">
+                    <img src="assets/images/productsectioneight2.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <a href="#" class="text-decoration-none">
+                            <h6 class="card-title">Pure Avocado Moisturizer with Organic Jojoba Oil for Moisturizing Hair &
+                                Lavender Fragrance</h6>
+                        </a>
+    
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-text">$26.00</p>
+                        <a href="#" class="btn btn-outline-primary text-uppercase px-7 font-weight-bold">Shop now</a>
+                    </div>
+                </div>
+                <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 p-4 border-0">
+                    <img src="assets/images/productsectioneight3.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <a href="#" class="text-decoration-none">
+                            <h6 class="card-title">Lavender Body Butter</h6>
+                        </a>
+    
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-text">$35.00</p>
+                        <a href="#" class="btn btn-outline-primary text-uppercase px-7 font-weight-bold">Shop now</a>
+                    </div>
+                </div>
+                <div class="card col-xl-3 col-lg-4 col-md-6 col-sm-12 p-4 border-0">
+                    <img src="assets/images/productsectioneight4.png" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <a href="#" class="text-decoration-none">
+                            <h6 class="card-title">Pure Regrowth Serum with Organic Jojoba Oil for Moisturizing & Lavender
+                                Fragrance</h6>
+                        </a>
+    
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-text">$20.00</p>
+                        <a href="#" class="btn btn-outline-primary text-uppercase px-7 font-weight-bold">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer class="border-top">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-lg-2 text-center">
+                        <a href="../html/index.html"><img src="assets/images/logo.png" alt="CurlMix" class="img-fluid"></a>
+                    </div>
+    
+                    <div class="col-lg-7 mt-5 mt-lg-0">
+                        <div class="row">
+                            <div class="col-md col-12">
+                                <div class="footer-nav footer-menu ml-lg-6 ml-md-4 ml-0 widget">
+                                    <h6
+                                        class="text-uppercase font-size-sm position-relative  pt-mx-3 pt-lg-0 custom-bd">
+                                        Shop</h6>
+                                    <article class="widget_content">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#" class="text-capitalize">Shampoo</a></li>
+                                            <li><a href="#" class="text-capitalize">Conditioner</a></li>
+                                            <li><a href="#" class="text-capitalize">Moisturizer</a></li>
+                                            <li><a href="#" class="text-capitalize">Flaxseed Gel</a></li>
+                                            <li></li><a href="#" class="text-capitalize">Wash &amp; Go System</a></li>
+                                            <li><a href="#" class="text-capitalize">Serum</a></li>
+                                            <li><a href="#" class="text-capitalize">Body Butter</a></li>
+                                        </ul>
+                                    </article>
+                                </div>
+                            </div>
+    
+                            <div class="col-md col-12 ">
+                                <div class="footer-nav footer-menu ml-lg-6 ml-md-4 ml-0 widget">
+                                    <h6 class="text-uppercase font-size-sm position-relative pt-lg-0">Learn </h6>
+                                    <article class="widget_content">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#" class="text-capitalize">Hair Quiz</a></li>
+                                            <li><a href="#" class="text-capitalize">About</a></li>
+                                            <li><a href="#" class="text-capitalize">FAQ</a></li>
+                                            <li><a href="#" class="text-capitalize">Reviews</a></li>
+                                            <li><a href="#" class="text-capitalize">Our Founders</a></li>
+                                            <li><a href="#" class="text-capitalize">Store Locator</a></li>
+                                        </ul>
+                                    </article>
+                                </div>
+                            </div>
+    
+                            <div class="col-md col-12">
+                                <div class="footer-nav footer-menu ml-lg-6 ml-md-4 ml-0 widget">
+                                    <h6 class="text-uppercase font-size-sm position-relative pt-lg-0">More</h6>
+                                    <article class="widget_content">
+                                        <ul class="list-unstyled">
+                                            <li><a href="#" class="text-capitalize">Contact Us</a></li>
+                                            <li><a href="#" class="text-capitalize">Wholesale</a></li>
+                                            <li><a href="#" class="text-capitalize">Wholesale Login</a></li>
+                                            <li><a href="#" class="text-capitalize">User Posting Guidelines</a></li>
+                                            <li><a href="#" class="text-capitalize">Terms</a></li>
+                                            <li><a href="#" class="text-capitalize">Disclaimer</a></li>
+                                        </ul>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col-lg-3 mt-6 mt-lg-0 pl-lg-6 text-center text-lg-left">
+                        <h6>Follow Us</h6>
+                        <ul class="social-links list-unstyled list-inline mt-md-3 mt-4 mb-0">
+                            <li class="list-inline-item">
+                                <a href="#"><img class="social-icon mh-100" src="assets/images/twitter.png"></a>
+                            </li>
+    
+                            <li class="list-inline-item">
+                                <a href="#"><img class="social-icon insta-icon mh-100" alt="instagram-icon"
+                                        src="assets/images/instagram.png"></a>
+                            </li>
+    
+                            <li class="list-inline-item">
+                                <a href="#"><img class="social-icon mh-100" alt="facebook-icon"
+                                        src="assets/images/facebook.png"></a>
+                            </li>
+    
+                            <li class="list-inline-item">
+                                <a href="#"><img src="assets/images/pinterest.png" class="social-icon mh-100"
+                                        alt="pinterest-icon"></a>
+                            </li>
+    
+                            <li class="list-inline-item">
+                                <a href="#"><img src="assets/images/youtube.png" class="social-icon mh-100"
+                                        alt="youtube-icon">
+                                </a>
+                            </li>
+                        </ul>
+                        <span class="d-block copyright font-size-sm font-family-Poppins mt-lg-5 mt-5 font-weight-normal"> ©
+                            2019 CurlMix.</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
